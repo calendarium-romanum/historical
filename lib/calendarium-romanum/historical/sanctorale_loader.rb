@@ -35,9 +35,9 @@ module CalendariumRomanum
             colourel = ch.xpath('./colour') unless ch.xpath('./colour').empty?
           end
 
-          adate = CR::AbstractDate.new date['month'].to_i, date['day'].to_i
-          colour = colourel.empty? ? CR::Colours::WHITE : CR::Colours[colourel.text.to_sym]
-          celebration = Celebration.new titlel.text, CR::Ranks[rankel.text.to_f], colour, cel['symbol'].to_sym, adate
+          adate = AbstractDate.new date['month'].to_i, date['day'].to_i
+          colour = colourel.empty? ? Colours::WHITE : Colours[colourel.text.to_sym]
+          celebration = Celebration.new titlel.text, Ranks[rankel.text.to_f], colour, cel['symbol'].to_sym, adate
 
           dest.add adate.month, adate.day, celebration
         end
