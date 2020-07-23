@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<calendar>
+  <body>
+    <celebration symbol="basil_gregory">
+      <date month="1" day="2"/>
+      <title>Ss. Basilii Magni et Gregorii Nazianzeni, episcoporum et Ecclesiae doctorum</title>
+      <rank>3.1</rank>
+    </celebration>
+  </body>
+</calendar>
