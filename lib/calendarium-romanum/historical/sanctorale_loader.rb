@@ -13,9 +13,27 @@ module CalendariumRomanum
         Nokogiri::XML(src).xpath('/calendar/body/celebration').each do |cel|
           next if cel['introduced'] && Date.parse(cel['introduced']) > point
 
-          date = cel.xpath('./date[1]').first
+          removed = cel.xpath('./removal')
+          next if (!removed.empty?) && Date.parse(removed.first['promulgated']) <= point
+
+          date = cel.xpath('./date').first
+
+          titlel = cel.xpath('./title')
+          rankel = cel.xpath('./rank')
+          colourel = cel.xpath('./colour')
+
+          cel.xpath('./change').each do |ch|
+            next if ch['promulgated'] && Date.parse(ch['promulgated']) > point
+
+            date = ch.xpath('./date').first unless ch.xpath('./date').empty?
+            titlel = ch.xpath('./title') unless ch.xpath('./title').empty?
+            rankel = ch.xpath('./rank') unless ch.xpath('./rank').empty?
+            colourel = ch.xpath('./colour') unless ch.xpath('./colour').empty?
+          end
+
           adate = CR::AbstractDate.new date['month'].to_i, date['day'].to_i
-          celebration = Celebration.new cel.xpath('./title').text, CR::Ranks[cel.xpath('./rank').text.to_f], CR::Colours::WHITE, cel['symbol'].to_sym, adate
+          colour = colourel.empty? ? CR::Colours::WHITE : CR::Colours[colourel.text.to_sym]
+          celebration = Celebration.new titlel.text, CR::Ranks[rankel.text.to_f], colour, cel['symbol'].to_sym, adate
 
           dest.add adate.month, adate.day, celebration
         end

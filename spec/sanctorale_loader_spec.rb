@@ -40,4 +40,45 @@ RSpec.describe CR::Historical::SanctoraleLoader do
       expect(s.get(4, 28)[0].symbol).to be :de_montfort
     end
   end
+
+  describe 'celebration/change' do
+    it 'initial state' do
+      s = loader.load_from_file path('changes.xml'), at: Date.new(1970, 1, 1)
+      expect(s.get(1, 11)[0])
+        .to eq CR::Celebration.new('S. Noni, abbatis, fundatoris Ordinis Programatorum (OProg)', CR::Ranks::MEMORIAL_OPTIONAL, CR::Colours::WHITE, :none, CR::AbstractDate.new(1, 11))
+    end
+
+    it 'first change' do
+      s = loader.load_from_file path('changes.xml'), at: Date.new(1986, 5, 1)
+      expect(s.get(1, 11)[0])
+        .to eq CR::Celebration.new('S. Noni, abbatis', CR::Ranks::MEMORIAL_GENERAL, CR::Colours::WHITE, :none, CR::AbstractDate.new(1, 11))
+    end
+
+    it 'second change' do
+      s = loader.load_from_file path('changes.xml'), at: Date.new(1987, 5, 1)
+      expect(s.get(1, 13)[0]) # date changed
+        .to eq CR::Celebration.new('S. Noni, abbatis', CR::Ranks::MEMORIAL_GENERAL, CR::Colours::WHITE, :none, CR::AbstractDate.new(1, 13))
+    end
+
+    it 'third change' do
+      s = loader.load_from_file path('changes.xml'), at: Date.new(1990, 7, 30)
+      expect(s.get(1, 11)[0])
+        .to eq CR::Celebration.new('S. Noni, abbatis', CR::Ranks::MEMORIAL_GENERAL, CR::Colours::RED, :none, CR::AbstractDate.new(1, 11))
+    end
+
+    it 'fourth change' do
+      s = loader.load_from_file path('changes.xml'), at: Date.new(1990, 10, 1)
+      expect(s.get(1, 11)[0])
+        .to eq CR::Celebration.new('S. Noni, abbatis', CR::Ranks::MEMORIAL_GENERAL, CR::Colours::WHITE, :none, CR::AbstractDate.new(1, 11))
+    end
+  end
+
+  describe 'celebration/change order does not matter, only dates matter'
+
+  describe 'celebration/removal' do
+    it 'does not load celebration after date of removal' do
+      s = loader.load_from_file path('changes.xml'), at: Date.new(2001, 5, 6)
+      expect(s).to be_empty
+    end
+  end
 end
