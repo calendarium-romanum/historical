@@ -1,5 +1,6 @@
 require 'bundler/setup'
 
+require 'calendarium-romanum/cr'
 require 'calendarium-romanum/historical'
 
 RSpec.configure do |config|
