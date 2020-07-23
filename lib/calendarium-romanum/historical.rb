@@ -1,4 +1,4 @@
-require "calendarium/romanum/historical/version"
+require "calendarium-romanum/historical/version"
 
 module Calendarium
   module Romanum

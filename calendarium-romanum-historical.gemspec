@@ -1,21 +1,24 @@
-require_relative 'lib/calendarium/romanum/historical/version'
+# coding: utf-8
+require_relative 'lib/calendarium-romanum/historical/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "calendarium-romanum-historical"
   spec.version       = Calendarium::Romanum::Historical::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["severus@post.cz"]
+  spec.authors       = ['Jakub Pavlík']
+  spec.email         = ['jkb.pavlik@gmail.com']
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
-  spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
-
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
+  spec.summary       = 'historically accurate Roman Catholic liturgical calendar computations'
+  spec.description   = <<~EOS
+  Builds upon the calendarium-romanum gem (i.e. deals only with the post-Vatican II liturgical
+  calendar) and provides additional capabilities for dealing not only a single state of the calendar,
+  but also it's development in time.
+  EOS
+  spec.homepage      = 'https://github.com/calendarium-romanum/historical'
+  spec.licenses      = ['LGPL-3.0', 'MIT']
+  spec.required_ruby_version = Gem::Requirement.new(">= 2.4.0")
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["source_code_uri"] = 'https://github.com/calendarium-romanum/historical'
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
