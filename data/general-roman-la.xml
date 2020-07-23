@@ -273,6 +273,11 @@
       <rank>3.12</rank>
       <colour>red</colour>
     </celebration>
+    <celebration symbol="de_montfort" introduced="1996-07-20" protNum="1208/96/L" published="Notitiae 362/1996, p. 656">
+      <date month="4" day="28"/>
+      <title>S. Ludovici Mariae Grignion de Montfort, presbyteri</title>
+      <rank>3.12</rank>
+    </celebration>
     <celebration symbol="catherine_of_siena">
       <date month="4" day="29"/>
       <title>S. Catharinae Senensis, virginis</title>
