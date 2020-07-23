@@ -5,6 +5,24 @@
     <locale>la</locale>
   </meta>
   <body>
+    <documents>
+      <document id="calendariumromanum1969">
+	<promulgated>1969-03-21</promulgated>
+	<effective>1970-01-01</effective>
+	<protNum>SCR 21/969</protNum>
+	<published uri="https://archive.org/details/CalendariumRomanum1969">Calendarium Romanum, 1969</published>
+      </document>
+      <document id="missale1970">
+	<promulgated>1970-03-26</promulgated>
+	<protNum>CD 166/70</protNum>
+	<published>Missale Romanum, editio typica 1969</published>
+	<published note="decree">Notitiae 54/1970, p. 169</published>
+	<published note="description of the calendar changes">Notitiae 54/1970, p. 192</published>
+      </document>
+    </documents>
+
+    <base ref="calendariumromanum1969" />
+
     <celebration symbol="basil_gregory">
       <date month="1" day="2"/>
       <title>Ss. Basilii Magni et Gregorii Nazianzeni, episcoporum et Ecclesiae doctorum</title>
@@ -547,6 +565,9 @@
       <title>Ss. Xysti II, papae, et sociorum, martyrum</title>
       <rank>3.12</rank>
       <colour>red</colour>
+      <change ref="missale1970">
+	<date month="8" day="7"/>
+      </change>
     </celebration>
     <celebration symbol="transfiguration">
       <date month="8" day="6"/>
@@ -557,11 +578,17 @@
       <date month="8" day="7"/>
       <title>S. Dominici, presbyteri</title>
       <rank>3.1</rank>
+      <change ref="missale1970">
+	<date month="8" day="8"/>
+      </change>
     </celebration>
     <celebration symbol="cajetan">
       <date month="8" day="8"/>
       <title>S. Caietani, presbyteri</title>
       <rank>3.12</rank>
+      <change ref="missale1970">
+	<date month="8" day="7"/>
+      </change>
     </celebration>
     <celebration symbol="lawrence">
       <date month="8" day="10"/>
