@@ -22,7 +22,9 @@ module CalendariumRomanum
           rankel = cel.xpath('./rank')
           colourel = cel.xpath('./colour')
 
-          cel.xpath('./change').each do |ch|
+          cel.xpath('./change')
+            .sort_by {|ch| Date.parse(ch['promulgated']) }
+            .each do |ch|
             next if ch['promulgated'] && Date.parse(ch['promulgated']) > point
 
             date = ch.xpath('./date').first unless ch.xpath('./date').empty?
