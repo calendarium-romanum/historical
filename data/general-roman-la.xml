@@ -1,0 +1,1001 @@
+<?xml version="1.0"?>
+<calendar>
+  <meta>
+    <title>Calendarium Romanum Generale</title>
+    <locale>la</locale>
+  </meta>
+  <body>
+    <celebration symbol="basil_gregory">
+      <date month="1" day="2"/>
+      <title>Ss. Basilii Magni et Gregorii Nazianzeni, episcoporum et Ecclesiae doctorum</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="raymond">
+      <date month="1" day="7"/>
+      <title>S. Raymundi de Penyafort, presbyteri</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="hilary">
+      <date month="1" day="13"/>
+      <title>S. Hilarii, episcopi et Ecclesiae doctoris</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="anthony_of_egypt">
+      <date month="1" day="17"/>
+      <title>S. Antonii, abbatis</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="fabian">
+      <date month="1" day="20"/>
+      <title>S. Fabiani, papae et martyris</title>
+      <rank>3.12</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="sebastian">
+      <date month="1" day="20"/>
+      <title>S. Sebastiani, martyris</title>
+      <rank>3.12</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="agnes">
+      <date month="1" day="21"/>
+      <title>S. Agnetis, virginis et martyris</title>
+      <rank>3.1</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="vincent_deacon">
+      <date month="1" day="22"/>
+      <title>S. Vincentii, diaconi et martyris</title>
+      <rank>3.12</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="francis_de_sales">
+      <date month="1" day="24"/>
+      <title>S. Francisci de Sales, episcopi et Ecclesiae doctoris</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="paul_conversion">
+      <date month="1" day="25"/>
+      <title>In Conversione S. Pauli, apostoli</title>
+      <rank>2.7</rank>
+    </celebration>
+    <celebration symbol="timothy_titus">
+      <date month="1" day="26"/>
+      <title>Ss. Timothei et Titi, episcoporum</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="merici">
+      <date month="1" day="27"/>
+      <title>S. Angelae Merici, virginis</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="aquinas">
+      <date month="1" day="28"/>
+      <title>S. Thomae de Aquino, presbyteri et Ecclesiae doctoris</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="bosco">
+      <date month="1" day="31"/>
+      <title>S. Ioannis Bosco, presbyteri</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="presentation_of_lord">
+      <date month="2" day="2"/>
+      <title>In Praesentatione Domini</title>
+      <rank>2.5</rank>
+    </celebration>
+    <celebration symbol="blase">
+      <date month="2" day="3"/>
+      <title>S. Blasii, episcopi et martyris</title>
+      <rank>3.12</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="ansgar">
+      <date month="2" day="3"/>
+      <title>S. Ansgarii, episcopi</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="agatha">
+      <date month="2" day="5"/>
+      <title>S. Agathae, virginis et martyris</title>
+      <rank>3.1</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="paul_miki">
+      <date month="2" day="6"/>
+      <title>Ss. Pauli Miki, prosbyteri, et sociorum, martyrum</title>
+      <rank>3.1</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="jerome_emiliani">
+      <date month="2" day="8"/>
+      <title>S. Hieronymi Emiliani, presbyteri</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="scholastica">
+      <date month="2" day="10"/>
+      <title>S. Scholasticae, virginis</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="bvm_lourdes">
+      <date month="2" day="11"/>
+      <title>B. Mariae Virginis de Lapurdo</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="cyril_methodius">
+      <date month="2" day="14"/>
+      <title>Ss. Cyrilli, monachi, et Methodii, episcopi</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="servite_founders">
+      <date month="2" day="17"/>
+      <title>Ss. Septem Fundatorum Ordinis Servorum B. M. V.</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="peter_damian">
+      <date month="2" day="21"/>
+      <title>S. Petri Damiani, episcopi et Ecclesiae doctoris</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="chair_of_peter">
+      <date month="2" day="22"/>
+      <title>Cathedrae S. Petri, apostoli</title>
+      <rank>2.7</rank>
+    </celebration>
+    <celebration symbol="polycarp">
+      <date month="2" day="23"/>
+      <title>S. Polycarpi, episcopi et martyris</title>
+      <rank>3.1</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="casimir">
+      <date month="3" day="4"/>
+      <title>S. Casimiri</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="perpetua_felicity">
+      <date month="3" day="7"/>
+      <title>Ss. Perpetuae et Felicitatis, martyrum</title>
+      <rank>3.1</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="john_of_god">
+      <date month="3" day="8"/>
+      <title>S. Ioannis a Deo, religiosi</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="frances_of_rome">
+      <date month="3" day="9"/>
+      <title>S. Franciscae Romanae, religiosae</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="patrick">
+      <date month="3" day="17"/>
+      <title>S. Patricii, episcopi</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="cyril_of_jerusalem">
+      <date month="3" day="18"/>
+      <title>S. Cyrilli Hierosolymitani, episcopi et Ecclesiae doctoris</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="joseph">
+      <date month="3" day="19"/>
+      <title>S. IOSEPH, SPONSI B. M. V.</title>
+      <rank>1.3</rank>
+    </celebration>
+    <celebration symbol="turibius">
+      <date month="3" day="23"/>
+      <title>S. Turibii de Mongrovejo, episcopi</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="annunciation">
+      <date month="3" day="25"/>
+      <title>IN ANNUNTIATIONE DOMINI</title>
+      <rank>1.3</rank>
+    </celebration>
+    <celebration symbol="francis_of_paola">
+      <date month="4" day="2"/>
+      <title>S. Francisci de Paula, eremitae</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="isidore">
+      <date month="4" day="4"/>
+      <title>S. Isidori, episcopi et Ecclesiae doctoris</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="vincent_ferrer">
+      <date month="4" day="5"/>
+      <title>S. Vincentii Ferrer, presbyteri</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="de_la_salle">
+      <date month="4" day="7"/>
+      <title>S. Ioannis Baptistae de la Salle, presbyteri</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="stanislaus">
+      <date month="4" day="11"/>
+      <title>S. Stanislai, episcopi et martyris</title>
+      <rank>3.12</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="martin_i">
+      <date month="4" day="13"/>
+      <title>S. Martini I, papae et martyris</title>
+      <rank>3.12</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="anselm">
+      <date month="4" day="21"/>
+      <title>S. Anselmi, episcopi et Ecclesiae doctoris</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="george">
+      <date month="4" day="23"/>
+      <title>S. Georgii, martyris</title>
+      <rank>3.12</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="fidelis">
+      <date month="4" day="24"/>
+      <title>S. Fidelis de Sigmaringa, presbyteri et martyris</title>
+      <rank>3.12</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="mark">
+      <date month="4" day="25"/>
+      <title>S. Marci, evangelistae</title>
+      <rank>2.7</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="peter_chanel">
+      <date month="4" day="28"/>
+      <title>S. Petri Chanel, presbyteri et martyris</title>
+      <rank>3.12</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="catherine_of_siena">
+      <date month="4" day="29"/>
+      <title>S. Catharinae Senensis, virginis</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="pius_v">
+      <date month="4" day="30"/>
+      <title>S. Pii V, papae</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="joseph_worker">
+      <date month="5" day="1"/>
+      <title>S. loseph Opificis</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="athanasius">
+      <date month="5" day="2"/>
+      <title>S. Athanasii, episcopi et Ecclesiae doctoris</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="philip_james">
+      <date month="5" day="3"/>
+      <title>Ss. Philippi et Iacobi, apostolorum</title>
+      <rank>2.7</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="nereus_achilleus">
+      <date month="5" day="12"/>
+      <title>Ss. Nerei et Achillei, martyrum</title>
+      <rank>3.12</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="pancras">
+      <date month="5" day="12"/>
+      <title>S. Pancratii, martyris</title>
+      <rank>3.12</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="matthias">
+      <date month="5" day="14"/>
+      <title>S. Matthiae, apostoli</title>
+      <rank>2.7</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="john_i">
+      <date month="5" day="18"/>
+      <title>S. Ioannis I, papae et martyris</title>
+      <rank>3.12</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="bernardine">
+      <date month="5" day="20"/>
+      <title>S. Bernardini Senensis, presbyteri</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="bede_venerable">
+      <date month="5" day="25"/>
+      <title>S. Bedae Venerabilis, presbyteri et Ecclesiae doctoris</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="gregory_vii">
+      <date month="5" day="25"/>
+      <title>S. Gregorii VII, papae</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="de_pazzi">
+      <date month="5" day="25"/>
+      <title>S. Mariae Magdalenae de&#x2019; Pazzi, virginis</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="neri">
+      <date month="5" day="26"/>
+      <title>S. Philippi Neri, presbyteri</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="augustine_of_canterbury">
+      <date month="5" day="27"/>
+      <title>S. Augustini Cantuariensis, episcopi</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="visitation">
+      <date month="5" day="31"/>
+      <title>In Visitatione B. Mariae Virginis</title>
+      <rank>2.7</rank>
+    </celebration>
+    <celebration symbol="justin">
+      <date month="6" day="1"/>
+      <title>S. Iustini, martyris</title>
+      <rank>3.1</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="marcellinus_peter">
+      <date month="6" day="2"/>
+      <title>Ss. Marcellini et Petri, martyrum</title>
+      <rank>3.12</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="ugandan_martyrs">
+      <date month="6" day="3"/>
+      <title>Ss. Caroli Lwanga et sociorum, martyrum</title>
+      <rank>3.1</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="boniface">
+      <date month="6" day="5"/>
+      <title>S. Bonifatii, episcopi et martyris</title>
+      <rank>3.1</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="norbert">
+      <date month="6" day="6"/>
+      <title>S. Norberti, episcopi</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="ephrem">
+      <date month="6" day="9"/>
+      <title>S. Ephraem, diaconi et Ecclesiae doctoris</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="barnabas">
+      <date month="6" day="11"/>
+      <title>S. Barnabae, apostoli</title>
+      <rank>3.1</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="anthony_of_padua">
+      <date month="6" day="13"/>
+      <title>S. Antonii de Padua, presbyteri et Ecclesiae doctoris</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="romuald">
+      <date month="6" day="19"/>
+      <title>S. Romualdi, abbatis</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="aloysius">
+      <date month="6" day="21"/>
+      <title>S. Aloisii Gonzaga, religiosi</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="paulinus">
+      <date month="6" day="22"/>
+      <title>S. Paulini Nolani, episcopi</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="fisher_more">
+      <date month="6" day="22"/>
+      <title>Ss. Ioannis Fisher, episcopi, et Thomae More, martyrum</title>
+      <rank>3.12</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="baptist_birth">
+      <date month="6" day="24"/>
+      <title>IN NATIVITATE S. IOANNIS BAPTISTAE</title>
+      <rank>1.3</rank>
+    </celebration>
+    <celebration symbol="cyril_of_alexandria">
+      <date month="6" day="27"/>
+      <title>S. Cyrilli Alexandrini, episcopi et Ecclesiae doctoris</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="irenaeus">
+      <date month="6" day="28"/>
+      <title>S. Irenaei, episcopi et martyris</title>
+      <rank>3.1</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="peter_paul">
+      <date month="6" day="29"/>
+      <title>SS. PETRI ET PAULI, APOSTOLORUM</title>
+      <rank>1.3</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="first_martyrs_of_rome">
+      <date month="6" day="30"/>
+      <title>Ss. Protomartyrum S. Romanae Ecclesiae</title>
+      <rank>3.12</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="thomas_apostle">
+      <date month="7" day="3"/>
+      <title>S. Thomae, apostoli</title>
+      <rank>2.7</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="elizabeth_of_portugal">
+      <date month="7" day="4"/>
+      <title>S. Elisabeth Lusitaniae</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="anthony_zaccaria">
+      <date month="7" day="5"/>
+      <title>S. Antonii Mariae Zaccaria, presbyteri</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="goretti">
+      <date month="7" day="6"/>
+      <title>S. Mariae Goretti, virginis et martyris</title>
+      <rank>3.12</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="benedict">
+      <date month="7" day="11"/>
+      <title>S. Benedicti, abbatis</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="henry">
+      <date month="7" day="13"/>
+      <title>S. Henrici</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="camillus_de_lellis">
+      <date month="7" day="14"/>
+      <title>S. Camilli de Lellis, presbyteri</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="bonaventure">
+      <date month="7" day="15"/>
+      <title>S. Bonaventurae, episcopi et Ecclesiae doctoris</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="bvm_mount_carmel">
+      <date month="7" day="16"/>
+      <title>B. Mariae Virginis de Monte Carmelo</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="lawrence_of_brindisi">
+      <date month="7" day="21"/>
+      <title>S. Laurentii de Brundusio, presbyteri et Ecclesiae doctoris</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="mary_magdalene">
+      <date month="7" day="22"/>
+      <title>S. Mariae Magdalenae</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="birgitta">
+      <date month="7" day="23"/>
+      <title>S. Birgittae, religiosae</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="james">
+      <date month="7" day="25"/>
+      <title>S. Iacobi, apostoli</title>
+      <rank>2.7</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="joachim_anne">
+      <date month="7" day="26"/>
+      <title>Ss. Ioachim et Annae, parentum B. M. V.</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="martha">
+      <date month="7" day="29"/>
+      <title>S. Marthae</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="peter_chrysologus">
+      <date month="7" day="30"/>
+      <title>S. Petri Chrysologi, episcopi et Ecclesiae doctoris</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="ignatius_of_loyola">
+      <date month="7" day="31"/>
+      <title>S. Ignatii de Loyola, presbyteri</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="alphonsus">
+      <date month="8" day="1"/>
+      <title>S. Alfonsi Mariae de' Liguori, episcopi et Ecclesiae doctoris</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="eusebius">
+      <date month="8" day="2"/>
+      <title>S. Eusebii Vercellensis, episcopi</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="vianney">
+      <date month="8" day="4"/>
+      <title>S. Ioannis Mariae Vianney, presbyteri</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="mary_major">
+      <date month="8" day="5"/>
+      <title>In Dedicatione basilicae S. Mariae</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="sixtus_ii">
+      <date month="8" day="5"/>
+      <title>Ss. Xysti II, papae, et sociorum, martyrum</title>
+      <rank>3.12</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="transfiguration">
+      <date month="8" day="6"/>
+      <title>In Transfiguratione Domini</title>
+      <rank>2.5</rank>
+    </celebration>
+    <celebration symbol="dominic">
+      <date month="8" day="7"/>
+      <title>S. Dominici, presbyteri</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="cajetan">
+      <date month="8" day="8"/>
+      <title>S. Caietani, presbyteri</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="lawrence">
+      <date month="8" day="10"/>
+      <title>S. Laurentii, diaconi et martyris</title>
+      <rank>2.7</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="clare">
+      <date month="8" day="11"/>
+      <title>S. Clarae, virginis</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="pontian_hippolytus">
+      <date month="8" day="13"/>
+      <title>Ss. Pontiani, papae, et Hippolyti, presbyteri, martyrum</title>
+      <rank>3.12</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="assumption">
+      <date month="8" day="15"/>
+      <title>IN ASSUMPTIONE BEATAE MARIAE VIRGINIS</title>
+      <rank>1.3</rank>
+    </celebration>
+    <celebration symbol="stephen_hungary">
+      <date month="8" day="16"/>
+      <title>S. Stephani Hungariae</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="eudes">
+      <date month="8" day="19"/>
+      <title>S. Ioannis Eudes, presbyteri</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="bernard">
+      <date month="8" day="20"/>
+      <title>S. Bernardi, abbatis et Ecclesiae doctoris</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="pius_x">
+      <date month="8" day="21"/>
+      <title>S. Pii X, papae</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="bvm_queenship">
+      <date month="8" day="22"/>
+      <title>B. Mariae Virginis Reginae</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="rose_lima">
+      <date month="8" day="23"/>
+      <title>S. Rosae de Lima, virginis</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="bartholomew">
+      <date month="8" day="24"/>
+      <title>S. Bartholomaei, apostoli</title>
+      <rank>2.7</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="louis">
+      <date month="8" day="25"/>
+      <title>S. Ludovici</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="joseph_calasanz">
+      <date month="8" day="25"/>
+      <title>Ioseph Calasanz, presbyteri</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="monica">
+      <date month="8" day="27"/>
+      <title>S. Monicae</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="augustine">
+      <date month="8" day="28"/>
+      <title>S. Augustini, episcopi et Ecclesiae doctoris</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="baptist_beheading">
+      <date month="8" day="29"/>
+      <title>In Passione S. Ioannis Baptistae, martyris</title>
+      <rank>3.1</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="gregory_great">
+      <date month="9" day="3"/>
+      <title>S. Gregorii Magni, papae et Ecclesiae doctoris</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="bvm_birth">
+      <date month="9" day="8"/>
+      <title>In Nativitate B. Mariae Virginis</title>
+      <rank>2.7</rank>
+    </celebration>
+    <celebration symbol="john_chrysostom">
+      <date month="9" day="13"/>
+      <title>S. Ioannis Chrysostomi, episcopi et Ecclesiae doctoris</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="cross">
+      <date month="9" day="14"/>
+      <title>In Exaltatione sanctae Crucis</title>
+      <rank>2.7</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="bvm_sorrows">
+      <date month="9" day="15"/>
+      <title>B. Mariae Virginis Perdolentis</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="cornelius_cyprian">
+      <date month="9" day="16"/>
+      <title>Ss. Cornelii, papae, et Cypriani, episcopi, martyrum</title>
+      <rank>3.1</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="bellarmine">
+      <date month="9" day="17"/>
+      <title>S. Roberti Bellarmino, episcopi et Ecclesiae doctoris</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="januarius">
+      <date month="9" day="19"/>
+      <title>S. Ianuarii, episcopi et martyris</title>
+      <rank>3.12</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="matthew">
+      <date month="9" day="21"/>
+      <title>S. Matthaei, apostoli et evangelistae</title>
+      <rank>2.7</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="cosmas_damian">
+      <date month="9" day="26"/>
+      <title>Ss. Cosmae et Damiani, martyrum</title>
+      <rank>3.12</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="vincent_de_paul">
+      <date month="9" day="27"/>
+      <title>S. Vincentii de Paul, presbyteri</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="wenceslaus">
+      <date month="9" day="28"/>
+      <title>S. Wenceslai, martyris</title>
+      <rank>3.12</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="archangels">
+      <date month="9" day="29"/>
+      <title>Ss. Michaelis, Gabrielis et Raphaelis, archangelorum</title>
+      <rank>2.7</rank>
+    </celebration>
+    <celebration symbol="jerome">
+      <date month="9" day="30"/>
+      <title>S. Hieronymi, presbyteri et Ecclesiae doctoris</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="therese_lisieux">
+      <date month="10" day="1"/>
+      <title>S. Teresiae a Iesu Infante, virginis</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="guardian_angels">
+      <date month="10" day="2"/>
+      <title>Ss. Angelorum Custodum</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="francis_assisi">
+      <date month="10" day="4"/>
+      <title>S. Francisci Assisiensis</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="bruno">
+      <date month="10" day="6"/>
+      <title>S. Brunonis, presbyteri</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="bvm_rosary">
+      <date month="10" day="7"/>
+      <title>B. Mariae Virginis a Rosario</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="denis">
+      <date month="10" day="9"/>
+      <title>Ss. Dionysii, episcopi, et sociorum, martyrum</title>
+      <rank>3.12</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="leonardi">
+      <date month="10" day="9"/>
+      <title>S. Ioannis Leonardi, presbyteri</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="callistus_i">
+      <date month="10" day="14"/>
+      <title>S. Callisti I, papae et martyris</title>
+      <rank>3.12</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="teresa_avila">
+      <date month="10" day="15"/>
+      <title>S. Teresiae de Avila, virginis</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="hedwig">
+      <date month="10" day="16"/>
+      <title>S. Hedwigis, religiosae</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="alacoque">
+      <date month="10" day="16"/>
+      <title>S. Margaritae Mariae Alacoque, virginis</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="ignatius_of_antioch">
+      <date month="10" day="17"/>
+      <title>S. Ignatii Antiocheni, episcopi et martyris</title>
+      <rank>3.1</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="luke">
+      <date month="10" day="18"/>
+      <title>S. Lucae, evangelistae</title>
+      <rank>2.7</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="brebeuf_jogues">
+      <date month="10" day="19"/>
+      <title>Ss. Isaac Jogues, presbyteri, et sociorum, martyrum</title>
+      <rank>3.12</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="paul_of_cross">
+      <date month="10" day="19"/>
+      <title>S. Pauli a Cruce, presbyteri</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="john_capistrano">
+      <date month="10" day="23"/>
+      <title>S. Ioannis de Capistrano, presbyteri</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="claret">
+      <date month="10" day="24"/>
+      <title>S. Antonii Mariae Claret, episcopi</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="simon_jude">
+      <date month="10" day="28"/>
+      <title>Ss. Simonis et Iudae, apostolorum</title>
+      <rank>2.7</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="all_saints">
+      <date month="11" day="1"/>
+      <title>OMNIUM SANCTORUM</title>
+      <rank>1.3</rank>
+    </celebration>
+    <celebration symbol="all_souls">
+      <date month="11" day="2"/>
+      <title>IN COMMEMORATIONE OMNIUM FIDELIUM DEFUNCTORUM</title>
+      <rank>1.3</rank>
+    </celebration>
+    <celebration symbol="de_porres">
+      <date month="11" day="3"/>
+      <title>S. Martini de Porres, religiosi</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="borromeo">
+      <date month="11" day="4"/>
+      <title>S. Caroli Borromeo, episcopi</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="lateran_basilica">
+      <date month="11" day="9"/>
+      <title>In dedicatione basilicae Lateranensis</title>
+      <rank>2.7</rank>
+    </celebration>
+    <celebration symbol="leo_great">
+      <date month="11" day="10"/>
+      <title>S. Leonis Magni, papae et Ecclesiae doctoris</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="martin">
+      <date month="11" day="11"/>
+      <title>S. Martini Turonensis, episcopi</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="josaphat">
+      <date month="11" day="12"/>
+      <title>S. Iosaphat, episcopi et martyris</title>
+      <rank>3.1</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="albert">
+      <date month="11" day="15"/>
+      <title>S. Alberti Magni, episcopi et Ecclesiae doctoris</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="margaret_of_scotland">
+      <date month="11" day="16"/>
+      <title>S. Margaritae Scotiae</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="gertrude">
+      <date month="11" day="16"/>
+      <title>S. Gertrudis, virginis</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="elizabeth_of_hungary">
+      <date month="11" day="17"/>
+      <title>S. Elisabeth Hungariae, religiosae</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="peter_paul_basilicas">
+      <date month="11" day="18"/>
+      <title>In Dedicatione basilicarum Ss. Petri et Pauli, apostolorum</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="bvm_presentation">
+      <date month="11" day="21"/>
+      <title>In Praesentatione B. Mariae Virginis</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="cecilia">
+      <date month="11" day="22"/>
+      <title>S. Caeciliae, virginis et martyris</title>
+      <rank>3.1</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="clement_i">
+      <date month="11" day="23"/>
+      <title>S. Clementis I, papae et martyris</title>
+      <rank>3.12</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="columban">
+      <date month="11" day="23"/>
+      <title>S. Columbani, abbatis</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="andrew">
+      <date month="11" day="30"/>
+      <title>S. Andreae, apostoli</title>
+      <rank>2.7</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="francis_xavier">
+      <date month="12" day="3"/>
+      <title>S. Francisci Xavier, presbyteri</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="john_damascene">
+      <date month="12" day="4"/>
+      <title>S. Ioannis Damasceni, presbyteri et Ecclesiae doctoris</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="nicholas">
+      <date month="12" day="6"/>
+      <title>S. Nicolai, episcopi</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="ambrose">
+      <date month="12" day="7"/>
+      <title>S. Ambrosii, episcopi et Ecclesiae doctoris</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="bvm_immaculate">
+      <date month="12" day="8"/>
+      <title>IN CONCEPTIONE IMMACULATA BEATAE MARIAE VIRGINIS</title>
+      <rank>1.3</rank>
+    </celebration>
+    <celebration symbol="damasus_i">
+      <date month="12" day="11"/>
+      <title>S. Damasi I, papae</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="de_chantal">
+      <date month="12" day="12"/>
+      <title>S. Ioannae Franciscae de Chantal, religiosae</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="lucy">
+      <date month="12" day="13"/>
+      <title>S. Luciae, virginis et martyris</title>
+      <rank>3.1</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="john_of_cross">
+      <date month="12" day="14"/>
+      <title>S. Ioannis a Cruce, presbyteri et Ecclesiae doctoris</title>
+      <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="canisius">
+      <date month="12" day="21"/>
+      <title>S. Petri Canisii, presbyteri et Ecclesiae doctoris</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="john_of_kanty">
+      <date month="12" day="23"/>
+      <title>S. Ioannis de Kety, presbyteri</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="stephen">
+      <date month="12" day="26"/>
+      <title>S. Stephani, protomartyris</title>
+      <rank>2.7</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="john_evangelist">
+      <date month="12" day="27"/>
+      <title>S. Ioannis, apostoli et evangelistae</title>
+      <rank>2.7</rank>
+    </celebration>
+    <celebration symbol="innocents">
+      <date month="12" day="28"/>
+      <title>Ss. Innocentium, martyrum</title>
+      <rank>2.7</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="becket">
+      <date month="12" day="29"/>
+      <title>S. Thomae Becket, episcopi et martyris</title>
+      <rank>3.12</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="sylvester_i">
+      <date month="12" day="31"/>
+      <title>S. Silvestri I, papae</title>
+      <rank>3.12</rank>
+    </celebration>
+  </body>
+</calendar>
