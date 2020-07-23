@@ -8,7 +8,11 @@ module CalendariumRomanum
       def load(src, dest = nil, at: :current)
         dest ||= Sanctorale.new
 
+        point = :current == at ? Date.today : at
+
         Nokogiri::XML(src).xpath('/calendar/body/celebration').each do |cel|
+          next if cel['introduced'] && Date.parse(cel['introduced']) > point
+
           date = cel.xpath('./date[1]').first
           adate = CR::AbstractDate.new date['month'].to_i, date['day'].to_i
           celebration = Celebration.new cel.xpath('./title').text, CR::Ranks[cel.xpath('./rank').text.to_f], CR::Colours::WHITE, cel['symbol'].to_sym, adate
