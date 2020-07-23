@@ -83,6 +83,20 @@ RSpec.describe CR::Historical::SanctoraleLoader do
     include_examples 'changes in changes.xml'
   end
 
+  describe 'celebration/change referencing a document' do
+    it 'before change' do
+      s = loader.load_from_file path('change_ref_document.xml'), at: Date.new(1970, 1, 1)
+      expect(s.get(1, 11)[0])
+        .to eq CR::Celebration.new('S. Noni, abbatis, fundatoris Ordinis Programatorum (OProg)', CR::Ranks::MEMORIAL_OPTIONAL, CR::Colours::WHITE, :none, CR::AbstractDate.new(1, 11))
+    end
+
+    it 'after change' do
+      s = loader.load_from_file path('change_ref_document.xml'), at: Date.new(1987, 2, 2)
+      expect(s.get(1, 13)[0])
+        .to eq CR::Celebration.new('S. Noni, abbatis, fundatoris Ordinis Programatorum (OProg)', CR::Ranks::MEMORIAL_OPTIONAL, CR::Colours::WHITE, :none, CR::AbstractDate.new(1, 13))
+    end
+  end
+
   describe 'celebration/removal' do
     it 'does not load celebration after date of removal' do
       s = loader.load_from_file path('changes.xml'), at: Date.new(2001, 5, 6)

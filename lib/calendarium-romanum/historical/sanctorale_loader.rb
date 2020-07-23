@@ -10,7 +10,8 @@ module CalendariumRomanum
 
         point = :current == at ? Date.today : at
 
-        Nokogiri::XML(src).xpath('/calendar/body/celebration').each do |cel|
+        doc = Nokogiri::XML(src)
+        doc.xpath('/calendar/body/celebration').each do |cel|
           next if cel['introduced'] && Date.parse(cel['introduced']) > point
 
           removed = cel.xpath('./removal')
@@ -23,9 +24,10 @@ module CalendariumRomanum
           colourel = cel.xpath('./colour')
 
           cel.xpath('./change')
-            .sort_by {|ch| Date.parse(ch['promulgated']) }
-            .each do |ch|
-            next if ch['promulgated'] && Date.parse(ch['promulgated']) > point
+            .collect {|ch| [promulgation_date(ch, doc), ch] }
+            .sort_by {|promulgated,ch| promulgated }
+            .each do |promulgated, ch|
+            next if promulgated > point
 
             date = ch.xpath('./date').first unless ch.xpath('./date').empty?
             titlel = ch.xpath('./title') unless ch.xpath('./title').empty?
@@ -49,6 +51,21 @@ module CalendariumRomanum
       # @return [CalendariumRomanum::Sanctorale]
       def load_from_file(path, dest = nil, encoding = 'utf-8', at: :current)
         load File.open(path, 'r', encoding: encoding), dest, at: at
+      end
+
+      protected
+
+      def promulgation_date(change, doc)
+        if change['promulgated']
+          Date.parse(change['promulgated'])
+        elsif change['ref']
+          ref = change['ref']
+          document = doc.xpath("/calendar/body/documents/document[@id = '#{ref}']")
+
+          Date.parse(document.xpath('./promulgated').text)
+        else
+          raise 'each `change` element must have either @promulgated or @ref attribute'
+        end
       end
     end
   end
