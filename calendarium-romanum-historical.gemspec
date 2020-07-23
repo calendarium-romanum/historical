@@ -28,4 +28,8 @@ Gem::Specification.new do |spec|
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
+
+  spec.add_dependency 'calendarium-romanum', '~> 0.7.1'
+  spec.add_dependency 'nokogiri'
+  spec.add_dependency 'thor'
 end
