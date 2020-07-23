@@ -612,6 +612,12 @@
       <rank>3.12</rank>
       <colour>red</colour>
     </celebration>
+    <celebration symbol="kolbe" introduced="1983-04-25", protNum="CD 570/83" published="Notitiae 202/1983, p. 238">
+      <date month="8", day="14"/>
+      <title>S. Maximiliani Mariae Kolbe, presbyteri et martyris</title>
+      <rank>3.12</rank>
+      <colour>red</colour>
+    </celebration>
     <celebration symbol="assumption">
       <date month="8" day="15"/>
       <title>IN ASSUMPTIONE BEATAE MARIAE VIRGINIS</title>
@@ -742,6 +748,12 @@
     <celebration symbol="wenceslaus">
       <date month="9" day="28"/>
       <title>S. Wenceslai, martyris</title>
+      <rank>3.12</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="ruiz">
+      <date month="9" day="28" introduced="1988-03-22" protNum="CD 1215/87", published="Notitiae 261/1988, p. 237"/>
+      <title>S. Laurentii Ruiz et sociorum, martyrum</title>
       <rank>3.12</rank>
       <colour>red</colour>
     </celebration>
