@@ -25,7 +25,7 @@ module CalendariumRomanum
 
           cel.xpath('./change')
             .collect {|ch| [promulgation_date(ch, doc), ch] }
-            .sort_by {|promulgated,ch| promulgated }
+            .sort_by {|promulgated, ch| promulgated }
             .each do |promulgated, ch|
             next if promulgated > point
 
