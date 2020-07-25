@@ -34,10 +34,14 @@ Or install it yourself as:
 ## Development roadmap
 
 * [ ] history-aware sanctorale data loader
+* [ ] data file with complete history of the General Roman Calendar from 1969 to this day
 * [ ] formal specification of the XML data format (allowing validation, use in XML editors etc.)
 * [ ] database-backed sanctorale data querying
 * [ ] history-aware temporale
 * [ ] history-aware calendar rules (concerning solemnity transfers, among other things)
+* [ ] main types of historical calendars:
+  * [ ] calendar for year Y as it looked on date D (ignores the fact that sanctorale data or calendar rules may change during the year, possibly affecting the calendar)
+  * [ ] calendar for year Y as it looked on every respective day of the year
 
 ## Usage
 
@@ -47,7 +51,8 @@ Look in the `data` directory what historical calendar data look like.
 
 will help you transform your conventional `calendarium-romanum` sanctorale data file
 to a XML file used to encode historical development of a calendar.
-Edit it and specify changes in time (later on there will be documentation how to do that).
+Edit it and specify changes in time (later on there will be documentation describing
+how to do that, for now you're left with examples in the `data` and `spec` directories).
 
 Then code like this will create `Sanctorale` representing state of the calendar
 at the specified point of time:
