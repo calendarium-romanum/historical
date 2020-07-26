@@ -60,7 +60,7 @@ module CalendariumRomanum
           Date.parse(change['promulgated'])
         elsif change['ref']
           ref = change['ref']
-          document = doc.xpath("/calendar/body/documents/document[@id = '#{ref}']")
+          document = doc.xpath("/calendar/documents/document[@id = '#{ref}']")
 
           Date.parse(document.xpath('./promulgated').text)
         else

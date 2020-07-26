@@ -4,23 +4,22 @@
     <title>Calendarium Romanum Generale</title>
     <locale>la</locale>
   </meta>
+  <documents>
+    <document id="calendariumromanum1969">
+      <promulgated>1969-03-21</promulgated>
+      <effective>1970-01-01</effective>
+      <protNum>SCR 21/969</protNum>
+      <published uri="https://archive.org/details/CalendariumRomanum1969">Calendarium Romanum, 1969</published>
+    </document>
+    <document id="missale1970">
+      <promulgated>1970-03-26</promulgated>
+      <protNum>CD 166/70</protNum>
+      <published>Missale Romanum, editio typica 1969</published>
+      <published note="decree">Notitiae 54/1970, p. 169</published>
+      <published note="description of the calendar changes">Notitiae 54/1970, p. 192</published>
+    </document>
+  </documents>
   <body>
-    <documents>
-      <document id="calendariumromanum1969">
-	<promulgated>1969-03-21</promulgated>
-	<effective>1970-01-01</effective>
-	<protNum>SCR 21/969</protNum>
-	<published uri="https://archive.org/details/CalendariumRomanum1969">Calendarium Romanum, 1969</published>
-      </document>
-      <document id="missale1970">
-	<promulgated>1970-03-26</promulgated>
-	<protNum>CD 166/70</protNum>
-	<published>Missale Romanum, editio typica 1969</published>
-	<published note="decree">Notitiae 54/1970, p. 169</published>
-	<published note="description of the calendar changes">Notitiae 54/1970, p. 192</published>
-      </document>
-    </documents>
-
     <base ref="calendariumromanum1969" />
 
     <celebration symbol="basil_gregory">
