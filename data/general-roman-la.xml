@@ -965,6 +965,12 @@
       <title>S. Columbani, abbatis</title>
       <rank>3.12</rank>
     </celebration>
+    <celebration symbol="vietnamese_martyrs" introduced="1989-06-01" protNum="CD 154/89" published="Notitiae 275/1989, p. 487">
+      <date month="11" day="24"/>
+      <title>Ss. Andreae Dung-Lac, presbyteri et sociorum, martyrum</title>
+      <rank>3.1</rank>
+      <colour>red</colour>
+    </celebration>
     <celebration symbol="andrew">
       <date month="11" day="30"/>
       <title>S. Andreae, apostoli</title>
