@@ -96,6 +96,7 @@
       <title>S. Ioannis Bosco, presbyteri</title>
       <rank>3.1</rank>
     </celebration>
+
     <celebration symbol="presentation_of_lord">
       <date month="2" day="2"/>
       <title>In Praesentatione Domini</title>
@@ -165,6 +166,7 @@
       <rank>3.1</rank>
       <colour>red</colour>
     </celebration>
+
     <celebration symbol="casimir">
       <date month="3" day="4"/>
       <title>S. Casimiri</title>
@@ -211,6 +213,7 @@
       <title>IN ANNUNTIATIONE DOMINI</title>
       <rank>1.3</rank>
     </celebration>
+
     <celebration symbol="francis_of_paola">
       <date month="4" day="2"/>
       <title>S. Francisci de Paula, eremitae</title>
@@ -290,6 +293,7 @@
       <title>S. Pii V, papae</title>
       <rank>3.12</rank>
     </celebration>
+
     <celebration symbol="joseph_worker">
       <date month="5" day="1"/>
       <title>S. loseph Opificis</title>
@@ -365,6 +369,7 @@
       <title>In Visitatione B. Mariae Virginis</title>
       <rank>2.7</rank>
     </celebration>
+
     <celebration symbol="justin">
       <date month="6" day="1"/>
       <title>S. Iustini, martyris</title>
@@ -459,6 +464,7 @@
       <rank>3.12</rank>
       <colour>red</colour>
     </celebration>
+
     <celebration symbol="thomas_apostle">
       <date month="7" day="3"/>
       <title>S. Thomae, apostoli</title>
@@ -547,6 +553,7 @@
       <title>S. Ignatii de Loyola, presbyteri</title>
       <rank>3.1</rank>
     </celebration>
+
     <celebration symbol="alphonsus">
       <date month="8" day="1"/>
       <title>S. Alfonsi Mariae de' Liguori, episcopi et Ecclesiae doctoris</title>
@@ -687,6 +694,7 @@
       <rank>3.1</rank>
       <colour>red</colour>
     </celebration>
+
     <celebration symbol="gregory_great">
       <date month="9" day="3"/>
       <title>S. Gregorii Magni, papae et Ecclesiae doctoris</title>
@@ -778,6 +786,7 @@
       <title>S. Hieronymi, presbyteri et Ecclesiae doctoris</title>
       <rank>3.1</rank>
     </celebration>
+
     <celebration symbol="therese_lisieux">
       <date month="10" day="1"/>
       <title>S. Teresiae a Iesu Infante, virginis</title>
@@ -877,6 +886,7 @@
       <rank>2.7</rank>
       <colour>red</colour>
     </celebration>
+
     <celebration symbol="all_saints">
       <date month="11" day="1"/>
       <title>OMNIUM SANCTORUM</title>
@@ -977,6 +987,7 @@
       <rank>2.7</rank>
       <colour>red</colour>
     </celebration>
+
     <celebration symbol="francis_xavier">
       <date month="12" day="3"/>
       <title>S. Francisci Xavier, presbyteri</title>
