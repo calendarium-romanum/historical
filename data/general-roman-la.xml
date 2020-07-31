@@ -18,6 +18,10 @@
       <published note="decree">Notitiae 54/1970, p. 169</published>
       <published note="description of the calendar changes">Notitiae 54/1970, p. 192</published>
     </document>
+    <document id="calendrier1989">
+      <title>Le calendrier romain general (1969-1989)</title>
+      <published>Notitiae 275/1989, p. 489</published>
+    </document>
   </documents>
   <body>
     <base ref="calendariumromanum1969" />
@@ -139,6 +143,10 @@
       <date month="2" day="11"/>
       <title>B. Mariae Virginis de Lapurdo</title>
       <rank>3.12</rank>
+      <change ref="missale1970">
+        <title>B. Mariae Virginis de Lourdes</title>
+        <seeAlso ref="calendrier1989"/>
+      </change>
     </celebration>
     <celebration symbol="cyril_methodius">
       <date month="2" day="14"/>
@@ -171,6 +179,9 @@
       <date month="3" day="4"/>
       <title>S. Casimiri</title>
       <rank>3.12</rank>
+      <!-- calendrier1989 has rank "Memoria", but since calendariumromanum1969 has it as
+           optional memorial and calendrier1989 doesn't list any change of rank,
+           it seems to be just an error -->
     </celebration>
     <celebration symbol="perpetua_felicity">
       <date month="3" day="7"/>
@@ -218,6 +229,10 @@
       <date month="4" day="2"/>
       <title>S. Francisci de Paula, eremitae</title>
       <rank>3.12</rank>
+      <change ref="missale1970">
+        <title>S. Francisci de Paola, eremitae</title>
+        <seeAlso ref="calendrier1989"/>
+      </change>
     </celebration>
     <celebration symbol="isidore">
       <date month="4" day="4"/>
@@ -240,7 +255,7 @@
       <rank>3.12</rank>
       <colour>red</colour>
       <change promulgated="1979-05-29" protNum="CD 660/79" published="Notitiae 155/1979, p. 308">
-	<rank>3.1</rank>
+        <rank>3.1</rank>
       </change>
     </celebration>
     <celebration symbol="martin_i">
@@ -287,6 +302,10 @@
       <date month="4" day="29"/>
       <title>S. Catharinae Senensis, virginis</title>
       <rank>3.1</rank>
+      <change promulgated="1970-10-04" published="AAS LXIII (1971), 674-682">
+        <title>S. Catharinae Senensis, virginis et Ecclesiae doctoris</title>
+        <seeAlso ref="calendrier1989"/>
+      </change>
     </celebration>
     <celebration symbol="pius_v">
       <date month="4" day="30"/>
@@ -414,6 +433,10 @@
       <date month="6" day="13"/>
       <title>S. Antonii de Padua, presbyteri et Ecclesiae doctoris</title>
       <rank>3.1</rank>
+      <change ref="missale1970">
+        <title>S. Antonii de Padova, presbyteri et Ecclesiae doctoris</title>
+        <seeAlso ref="calendrier1989"/>
+      </change>
     </celebration>
     <celebration symbol="romuald">
       <date month="6" day="19"/>
@@ -516,6 +539,10 @@
       <date month="7" day="21"/>
       <title>S. Laurentii de Brundusio, presbyteri et Ecclesiae doctoris</title>
       <rank>3.12</rank>
+      <change ref="missale1970">
+        <title>S. Laurentii de Brindisi, presbyteri et Ecclesiae doctoris</title>
+        <seeAlso ref="calendrier1989"/>
+      </change>
     </celebration>
     <celebration symbol="mary_magdalene">
       <date month="7" day="22"/>
@@ -580,7 +607,7 @@
       <rank>3.12</rank>
       <colour>red</colour>
       <change ref="missale1970">
-	<date month="8" day="7"/>
+        <date month="8" day="7"/>
       </change>
     </celebration>
     <celebration symbol="transfiguration">
@@ -593,7 +620,7 @@
       <title>S. Dominici, presbyteri</title>
       <rank>3.1</rank>
       <change ref="missale1970">
-	<date month="8" day="8"/>
+        <date month="8" day="8"/>
       </change>
     </celebration>
     <celebration symbol="cajetan">
@@ -601,7 +628,7 @@
       <title>S. Caietani, presbyteri</title>
       <rank>3.12</rank>
       <change ref="missale1970">
-	<date month="8" day="7"/>
+        <date month="8" day="7"/>
       </change>
     </celebration>
     <celebration symbol="lawrence">
@@ -621,7 +648,7 @@
       <rank>3.12</rank>
       <colour>red</colour>
     </celebration>
-    <celebration symbol="kolbe" introduced="1983-04-25", protNum="CD 570/83" published="Notitiae 202/1983, p. 238">
+    <celebration symbol="kolbe" introduced="1983-03-25", protNum="CD 570/83" published="Notitiae 202/1983, p. 238">
       <date month="8", day="14"/>
       <title>S. Maximiliani Mariae Kolbe, presbyteri et martyris</title>
       <rank>3.12</rank>
@@ -675,8 +702,14 @@
     </celebration>
     <celebration symbol="joseph_calasanz">
       <date month="8" day="25"/>
-      <title>Ioseph Calasanz, presbyteri</title>
+      <title>S. Ioseph Calasanz, presbyteri</title>
       <rank>3.12</rank>
+      <change ref="calendrier1989">
+        <!-- calendrier1989 has title "S. Ioseph _de_ Calasanz, presb.", but the change
+             isn't marked as such
+             TODO: check contemporary and later liturgical books -->
+        <title>S. Ioseph de Calasanz, presbyteri</title>
+      </change>
     </celebration>
     <celebration symbol="monica">
       <date month="8" day="27"/>
@@ -740,10 +773,10 @@
     </celebration>
     <celebration symbol="korean_martyrs" introduced="1985-03-12" protNum="CD 570/85", published="Notitiae 225/1985, p. 190">
       <date month="9" day="20"/>
-      <title>Ss. Andreae Kim Taegon, presbyteri et Pauli Chong Hasang, et sociorum, martyrum</title>
+      <title>Ss. Andreae Kim Taegon, presbyteri, et Pauli Chong Hasang, et sociorum, martyrum</title>
       <!-- This is the title as published in Notitiae; in later publications orthography
-	   more respectful to Korean language peculiarities is usual:
-	   Ss. Andreae Kim Tae-gŏn et Pauli Chŏng Ha-sang et sociorum, martyrum -->
+           more respectful to Korean language peculiarities is usual:
+           Ss. Andreae Kim Tae-gŏn et Pauli Chŏng Ha-sang et sociorum, martyrum -->
       <rank>3.1</rank>
       <colour>red</colour>
     </celebration>
@@ -772,7 +805,7 @@
     </celebration>
     <celebration symbol="ruiz">
       <date month="9" day="28" introduced="1988-03-22" protNum="CD 1215/87", published="Notitiae 261/1988, p. 237"/>
-      <title>S. Laurentii Ruiz et sociorum, martyrum</title>
+      <title>Ss. Laurentii Ruiz et sociorum, martyrum</title>
       <rank>3.12</rank>
       <colour>red</colour>
     </celebration>
@@ -834,7 +867,7 @@
       <title>S. Teresiae de Avila, virginis</title>
       <rank>3.1</rank>
       <change promulgated="1984-02-17" protNum="CD 600/84", published="Notitiae 212/1984, p. 191">
-	<title>S. Teresiae a Iesu, virginis et Ecclesiae doctoris</title>
+        <title>S. Teresiae a Iesu, virginis et Ecclesiae doctoris</title>
       </change>
     </celebration>
     <celebration symbol="hedwig">
@@ -864,6 +897,10 @@
       <title>Ss. Isaac Jogues, presbyteri, et sociorum, martyrum</title>
       <rank>3.12</rank>
       <colour>red</colour>
+      <change ref="missale1970">
+        <title>Ss. Ioannis de Brébeuf et Issac Jogues, presbyterorum, et sociorum, martyrum</title>
+        <seeAlso ref="calendrier1989"/>
+      </change>
     </celebration>
     <celebration symbol="paul_of_cross">
       <date month="10" day="19"/>
@@ -874,6 +911,11 @@
       <date month="10" day="23"/>
       <title>S. Ioannis de Capistrano, presbyteri</title>
       <rank>3.12</rank>
+      <change ref="calendrier1989">
+        <title>S. Ioannis de Capestrano, presbyteri</title>
+        <!-- change not marked as such in the document!
+             TODO: check contemporary and later liturgical books -->
+      </change>
     </celebration>
     <celebration symbol="claret">
       <date month="10" day="24"/>
@@ -977,7 +1019,7 @@
     </celebration>
     <celebration symbol="vietnamese_martyrs" introduced="1989-06-01" protNum="CD 154/89" published="Notitiae 275/1989, p. 487">
       <date month="11" day="24"/>
-      <title>Ss. Andreae Dung-Lac, presbyteri et sociorum, martyrum</title>
+      <title>Ss. Andreae Dung-Lac, presbyteri, et sociorum, martyrum</title>
       <rank>3.1</rank>
       <colour>red</colour>
     </celebration>
