@@ -275,6 +275,12 @@
       <rank>3.12</rank>
       <colour>red</colour>
     </celebration>
+    <celebration symbol="adalbert" introduced="1995-07-11" protNum="2349/95/L" published="Notitiae 357/1996, p. 191">
+      <date month="4" day="23"/>
+      <title>S. Adalberti, episcopi et martyris</title>
+      <rank>3.12</rank>
+      <colour>red</colour>
+    </celebration>
     <celebration symbol="fidelis">
       <date month="4" day="24"/>
       <title>S. Fidelis de Sigmaringa, presbyteri et martyris</title>
@@ -591,6 +597,11 @@
       <title>S. Eusebii Vercellensis, episcopi</title>
       <rank>3.12</rank>
     </celebration>
+    <celebration symbol="eymard" introduced="1995-12-09" protNum="2348/95/L" published="Notitiae 357/1996, p. 202">
+      <date month="3" day="2"/>
+      <title>S. Petri Iuliani Eymard, presbyteri</title>
+      <rank>3.12</rank>
+    </celebration>
     <celebration symbol="vianney">
       <date month="8" day="4"/>
       <title>S. Ioannis Mariae Vianney, presbyteri</title>
@@ -737,6 +748,11 @@
       <date month="9" day="8"/>
       <title>In Nativitate B. Mariae Virginis</title>
       <rank>2.7</rank>
+    </celebration>
+    <celebration symbol="claver" introduced="1995-09-08" protNum="2350/95/L" published="Notitiae 357/1996, p. 196">
+      <date month="9" day="9"/>
+      <title>S. Petri Claver, presbyteri</title>
+      <rank>3.12</rank>
     </celebration>
     <celebration symbol="john_chrysostom">
       <date month="9" day="13"/>
