@@ -803,8 +803,8 @@
       <rank>3.12</rank>
       <colour>red</colour>
     </celebration>
-    <celebration symbol="ruiz">
-      <date month="9" day="28" introduced="1988-03-22" protNum="CD 1215/87", published="Notitiae 261/1988, p. 237"/>
+    <celebration symbol="ruiz" introduced="1988-03-22" protNum="CD 1215/87", published="Notitiae 261/1988, p. 237">
+      <date month="9" day="28"/>
       <title>Ss. Laurentii Ruiz et sociorum, martyrum</title>
       <rank>3.12</rank>
       <colour>red</colour>
