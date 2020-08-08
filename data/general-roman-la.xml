@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <calendar>
   <meta>
     <title>Calendarium Romanum Generale</title>
@@ -659,8 +659,8 @@
       <rank>3.12</rank>
       <colour>red</colour>
     </celebration>
-    <celebration symbol="kolbe" introduced="1983-03-25", protNum="CD 570/83" published="Notitiae 202/1983, p. 238">
-      <date month="8", day="14"/>
+    <celebration symbol="kolbe" introduced="1983-03-25" protNum="CD 570/83" published="Notitiae 202/1983, p. 238">
+      <date month="8" day="14"/>
       <title>S. Maximiliani Mariae Kolbe, presbyteri et martyris</title>
       <rank>3.12</rank>
       <colour>red</colour>
@@ -787,7 +787,7 @@
       <rank>3.12</rank>
       <colour>red</colour>
     </celebration>
-    <celebration symbol="korean_martyrs" introduced="1985-03-12" protNum="CD 570/85", published="Notitiae 225/1985, p. 190">
+    <celebration symbol="korean_martyrs" introduced="1985-03-12" protNum="CD 570/85" published="Notitiae 225/1985, p. 190">
       <date month="9" day="20"/>
       <title>Ss. Andreae Kim Taegon, presbyteri, et Pauli Chong Hasang, et sociorum, martyrum</title>
       <!-- This is the title as published in Notitiae; in later publications orthography
@@ -819,7 +819,7 @@
       <rank>3.12</rank>
       <colour>red</colour>
     </celebration>
-    <celebration symbol="ruiz" introduced="1988-03-22" protNum="CD 1215/87", published="Notitiae 261/1988, p. 237">
+    <celebration symbol="ruiz" introduced="1988-03-22" protNum="CD 1215/87" published="Notitiae 261/1988, p. 237">
       <date month="9" day="28"/>
       <title>Ss. Laurentii Ruiz et sociorum, martyrum</title>
       <rank>3.12</rank>
@@ -882,7 +882,7 @@
       <date month="10" day="15"/>
       <title>S. Teresiae de Avila, virginis</title>
       <rank>3.1</rank>
-      <change promulgated="1984-02-17" protNum="CD 600/84", published="Notitiae 212/1984, p. 191">
+      <change promulgated="1984-02-17" protNum="CD 600/84" published="Notitiae 212/1984, p. 191">
         <title>S. Teresiae a Iesu, virginis et Ecclesiae doctoris</title>
       </change>
     </celebration>
