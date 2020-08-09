@@ -20,6 +20,7 @@
     </document>
     <document id="calendrier1989">
       <title>Le calendrier romain general (1969-1989)</title>
+      <promulgated>1989-06-01</promulgated><!-- TODO: this is not a document and was not really promulgated, but since some feast title changes have no other authoritative source, the 'promulgeted' element must be here -->
       <published>Notitiae 275/1989, p. 489</published>
     </document>
   </documents>
