@@ -11,7 +11,7 @@ module CalendariumRomanum
       desc 'bootstrap FILE',
            'takes a conventional sanctorale data file, generates initial "historical" XML'
       def bootstrap(data_file)
-        sanctorale = SanctoraleLoader.new.load_from_file(data_file)
+        sanctorale = CalendariumRomanum::SanctoraleLoader.new.load_from_file(data_file)
         puts SanctoraleXmlGenerator.new.call sanctorale
       end
     end
