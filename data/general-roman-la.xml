@@ -803,6 +803,11 @@
       <rank>2.7</rank>
       <colour>red</colour>
     </celebration>
+    <celebration symbol="padre_pio" introduced="2002-06-26" protNum="887/02/L" published="Notitiae 435/2002, p. 549">
+      <date month="9" day="23"/>
+      <title>S. Pii de Pietrelcina, presbyteri</title>
+      <rank>3.12</rank>
+    </celebration>
     <celebration symbol="cosmas_damian">
       <date month="9" day="26"/>
       <title>Ss. Cosmae et Damiani, martyrum</title>
