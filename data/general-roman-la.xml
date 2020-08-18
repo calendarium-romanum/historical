@@ -1144,6 +1144,11 @@
       <title>IN CONCEPTIONE IMMACULATA BEATAE MARIAE VIRGINIS</title>
       <rank>1.3</rank>
     </celebration>
+    <celebration symbol="juan_diego" introduced="2002-09-28" protNum="1828/02/L" published="Notitiae 451-452/2004, p. 196">
+      <date month="12" day="9"/>
+      <title>S. Ioannis Didaci Cuahtlatoatzin</title>
+      <rank>3.12</rank>
+    </celebration>
     <celebration symbol="damasus_i">
       <date month="12" day="11"/>
       <title>S. Damasi I, papae</title>
@@ -1156,6 +1161,11 @@
       <change ref="additiones2001">
 	<date month="8" day="12"/>
       </change>
+    </celebration>
+    <celebration symbol="bvm_guadalupe" introduced="2002-09-28" protNum="1622/02/L" published="Notitiae 451-452/2004, p. 197">
+      <date month="12" day="12"/>
+      <title>Beatae Mariae Virginis de Guadalupe</title>
+      <rank>3.12</rank>
     </celebration>
     <celebration symbol="lucy">
       <date month="12" day="13"/>
