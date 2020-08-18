@@ -18,6 +18,11 @@
       <published note="decree">Notitiae 54/1970, p. 169</published>
       <published note="description of the calendar changes">Notitiae 54/1970, p. 192</published>
     </document>
+    <document id="additiones2001">
+      <promulgated>2001-12-18</promulgated>
+      <protNum>2492/01/L</protNum>
+      <published>Notitiae 432-433/2002, p. 313</published>
+    </document>
     <document id="calendrier1989">
       <title>Le calendrier romain general (1969-1989)</title>
       <promulgated>1989-06-01</promulgated><!-- TODO: this is not a document and was not really promulgated, but since some feast title changes have no other authoritative source, the 'promulgeted' element must be here -->
@@ -31,6 +36,11 @@
       <date month="1" day="2"/>
       <title>Ss. Basilii Magni et Gregorii Nazianzeni, episcoporum et Ecclesiae doctorum</title>
       <rank>3.1</rank>
+    </celebration>
+    <celebration symbol="name_jesus" ref="additiones2001">
+      <date month="1" day="3"/>
+      <title>Ss. Nominis Iesu</title>
+      <rank>3.12</rank>
     </celebration>
     <celebration symbol="raymond">
       <date month="1" day="7"/>
@@ -133,6 +143,11 @@
     <celebration symbol="jerome_emiliani">
       <date month="2" day="8"/>
       <title>S. Hieronymi Emiliani, presbyteri</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="josephine_bakhita" ref="additiones2001">
+      <date month="2" day="8"/>
+      <title>S. Iosephinae Bakhita, virginis</title>
       <rank>3.12</rank>
     </celebration>
     <celebration symbol="scholastica">
@@ -348,6 +363,11 @@
       <rank>3.12</rank>
       <colour>red</colour>
     </celebration>
+    <celebration symbol="bvm_fatima" ref="additiones2001">
+      <date month="5" day="13"/>
+      <title>Beatae Mariae Virginis de Fatima</title>
+      <rank>3.12</rank>
+    </celebration>
     <celebration symbol="matthias">
       <date month="5" day="14"/>
       <title>S. Matthiae, apostoli</title>
@@ -363,6 +383,17 @@
     <celebration symbol="bernardine">
       <date month="5" day="20"/>
       <title>S. Bernardini Senensis, presbyteri</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="magallanes" ref="additiones2001">
+      <date month="5" day="21"/>
+      <title>Ss. Christophori Magallanes, presbyteri, et sociorum, martyrum</title>
+      <rank>3.12</rank>
+      <colour>red</colour>
+    </celebration>
+    <celebration symbol="rita" ref="additiones2001">
+      <date month="5" day="22"/>
+      <title>S. Ritae de Cascia, religiosae</title>
       <rank>3.12</rank>
     </celebration>
     <celebration symbol="bede_venerable">
@@ -517,6 +548,12 @@
       <rank>3.12</rank>
       <colour>red</colour>
     </celebration>
+    <celebration symbol="chinese_martyrs" ref="additiones2001">
+      <date month="7" day="9"/>
+      <title>Ss. Augustini Zhao Rong, presbyteri, et sociorum, martyrum</title>
+      <rank>3.12</rank>
+      <colour>red</colour>
+    </celebration>
     <celebration symbol="benedict">
       <date month="7" day="11"/>
       <title>S. Benedicti, abbatis</title>
@@ -542,6 +579,12 @@
       <title>B. Mariae Virginis de Monte Carmelo</title>
       <rank>3.12</rank>
     </celebration>
+    <celebration symbol="apollinaris" ref="additiones2001">
+      <date month="7" day="20"/>
+      <title>S. Apollinaris, episcopi et martyris</title>
+      <rank>3.12</rank>
+      <colour>red</colour>
+    </celebration>
     <celebration symbol="lawrence_of_brindisi">
       <date month="7" day="21"/>
       <title>S. Laurentii de Brundusio, presbyteri et Ecclesiae doctoris</title>
@@ -559,6 +602,13 @@
     <celebration symbol="birgitta">
       <date month="7" day="23"/>
       <title>S. Birgittae, religiosae</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="sharbel" ref="additiones2001">
+      <date month="7" day="24"/>
+      <title>S. Sarbelii Makhlūf, presbyteri</title>
+      <!-- In the decree the name is rendered as "Makhūf", but by comparison with immediately
+	   following liturgical texts it's an obvious typo. -->
       <rank>3.12</rank>
     </celebration>
     <celebration symbol="james">
@@ -642,6 +692,12 @@
       <change ref="missale1970">
         <date month="8" day="7"/>
       </change>
+    </celebration>
+    <celebration symbol="stein" ref="additiones2001">
+      <date month="8" day="9"/>
+      <title>S. Teresiae Benedictae a Cruce, virginis et martyris</title>
+      <rank>3.12</rank>
+      <colour>red</colour>
     </celebration>
     <celebration symbol="lawrence">
       <date month="8" day="10"/>
@@ -753,6 +809,11 @@
     <celebration symbol="claver" introduced="1995-09-08" protNum="2350/95/L" published="Notitiae 357/1996, p. 196">
       <date month="9" day="9"/>
       <title>S. Petri Claver, presbyteri</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="bvm_name" ref="additiones2001">
+      <date month="9" day="12"/>
+      <title>Ss. Nominis Beatae Virginis Mariae</title>
       <rank>3.12</rank>
     </celebration>
     <celebration symbol="john_chrysostom">
@@ -1045,6 +1106,12 @@
       <rank>3.1</rank>
       <colour>red</colour>
     </celebration>
+    <celebration symbol="catherine_of_alexandria" ref="additiones2001">
+      <date month="11" day="25"/>
+      <title>S. Catharinae Alexandrinae, virginis et martyris</title>
+      <rank>3.12</rank>
+      <colour>red</colour>
+    </celebration>
     <celebration symbol="andrew">
       <date month="11" day="30"/>
       <title>S. Andreae, apostoli</title>
@@ -1086,6 +1153,9 @@
       <date month="12" day="12"/>
       <title>S. Ioannae Franciscae de Chantal, religiosae</title>
       <rank>3.12</rank>
+      <change ref="additiones2001">
+	<date month="8" day="12"/>
+      </change>
     </celebration>
     <celebration symbol="lucy">
       <date month="12" day="13"/>
