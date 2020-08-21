@@ -28,6 +28,11 @@
       <promulgated>1989-06-01</promulgated><!-- TODO: this is not a document and was not really promulgated, but since some feast title changes have no other authoritative source, the 'promulgeted' element must be here -->
       <published>Notitiae 275/1989, p. 489</published>
     </document>
+    <document id="popes2014">
+      <promulgated>2014-05-29</promulgated>
+      <protNum>CCDDS 309/14</protNum>
+      <published>Notitiae 573-574/2014, p. 243</published>
+    </document>
   </documents>
   <body>
     <base ref="calendariumromanum1969" />
@@ -939,6 +944,11 @@
       <title>S. Ioannis Leonardi, presbyteri</title>
       <rank>3.12</rank>
     </celebration>
+    <celebration symbol="john_xxiii" ref="popes2014">
+      <date month="10" day="11"/>
+      <title>S. Ioannis XXIII, papae</title>
+      <rank>3.12</rank>
+    </celebration>
     <celebration symbol="callistus_i">
       <date month="10" day="14"/>
       <title>S. Callisti I, papae et martyris</title>
@@ -988,6 +998,11 @@
     <celebration symbol="paul_of_cross">
       <date month="10" day="19"/>
       <title>S. Pauli a Cruce, presbyteri</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="john_paul_ii" ref="popes2014">
+      <date month="10" day="22"/>
+      <title>S. Ioannis Pauli II, papae</title>
       <rank>3.12</rank>
     </celebration>
     <celebration symbol="john_capistrano">
