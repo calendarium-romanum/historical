@@ -931,6 +931,11 @@
       <title>S. Francisci Assisiensis</title>
       <rank>3.1</rank>
     </celebration>
+    <celebration symbol="faustina_kowalska" introduced="2020-05-18" protNum="CCDDS 229/20" published="http://www.cultodivino.va/content/dam/cultodivino/documenti/decreti/2020/FK%20DEC%20LATINO%20DEF.pdf">
+      <date month="10" day="5"/>
+      <title>S. Faustinae Kowalska, virginis</title>
+      <rank>3.12</rank>
+    </celebration>
     <celebration symbol="bruno">
       <date month="10" day="6"/>
       <title>S. Brunonis, presbyteri</title>
