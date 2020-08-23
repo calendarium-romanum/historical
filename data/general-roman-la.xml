@@ -603,6 +603,9 @@
       <date month="7" day="22"/>
       <title>S. Mariae Magdalenae</title>
       <rank>3.1</rank>
+      <change promulgated="2016-06-03" protNum="CCDDS 257/16" published="Notitiae 2016, p. 22">
+	<rank>2.7</rank>
+      </change>
     </celebration>
     <celebration symbol="birgitta">
       <date month="7" day="23"/>
