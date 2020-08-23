@@ -426,6 +426,11 @@
       <title>S. Augustini Cantuariensis, episcopi</title>
       <rank>3.12</rank>
     </celebration>
+    <celebration symbol="paul_vi" introduced="2019-01-25" protNum="CCDDS 29/19" published="Notitiae 2019, p. 9">
+      <date month="5" day="29"/>
+      <title>S. Pauli VI, papae</title>
+      <rank>3.12</rank>
+    </celebration>
     <celebration symbol="visitation">
       <date month="5" day="31"/>
       <title>In Visitatione B. Mariae Virginis</title>
@@ -1165,6 +1170,11 @@
     <celebration symbol="juan_diego" introduced="2002-09-28" protNum="1828/02/L" published="Notitiae 451-452/2004, p. 196">
       <date month="12" day="9"/>
       <title>S. Ioannis Didaci Cuahtlatoatzin</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="bvm_loreto" introduced="2019-10-07" protNum="CCDDS 404/19" published="Notitiae 2019, p. 38">
+      <date month="12" day="10"/>
+      <title>Beatae Mariae Virginis de Loreto</title>
       <rank>3.12</rank>
     </celebration>
     <celebration symbol="damasus_i">
