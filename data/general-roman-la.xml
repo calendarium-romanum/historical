@@ -33,6 +33,11 @@
       <protNum>CCDDS 309/14</protNum>
       <published>Notitiae 573-574/2014, p. 243</published>
     </document>
+    <document id="doctores2021">
+      <promulgated>2021-01-25</promulgated>
+      <protNum>CCDDS 40/21</protNum>
+      <published uri="http://www.cultodivino.va/content/cultodivino/it/documenti/decreti-generali/decreti-generali/2021/de-indcriptione-ecclesiae-doctorum-in-calendario-romano/decretrum/latino.html"/>
+    </document>
   </documents>
   <body>
     <base ref="calendariumromanum1969" />
@@ -195,6 +200,11 @@
       <rank>3.1</rank>
       <colour>red</colour>
     </celebration>
+    <celebration symbol="gregory_of_narek" ref="doctores2021">
+      <date month="2" day="27"/>
+      <title>S. Gregorii Narecensis, abbatis et Ecclesiae doctoris</title>
+      <rank>3.12</rank>
+    </celebration>
 
     <celebration symbol="casimir">
       <date month="3" day="4"/>
@@ -355,6 +365,11 @@
       <title>Ss. Philippi et Iacobi, apostolorum</title>
       <rank>2.7</rank>
       <colour>red</colour>
+    </celebration>
+    <celebration symbol="john_de_avila" ref="doctores2021">
+      <date month="5" day="10"/>
+      <title>S. Ioannis De Avila, presbyteri et Ecclesiae doctoris</title>
+      <rank>3.12</rank>
     </celebration>
     <celebration symbol="nereus_achilleus">
       <date month="5" day="12"/>
@@ -857,6 +872,11 @@
     <celebration symbol="bellarmine">
       <date month="9" day="17"/>
       <title>S. Roberti Bellarmino, episcopi et Ecclesiae doctoris</title>
+      <rank>3.12</rank>
+    </celebration>
+    <celebration symbol="hildegard" ref="doctores2021">
+      <date month="9" day="17"/>
+      <title>S. Hildegardis Bingensis, virginis et Ecclesiae doctoris</title>
       <rank>3.12</rank>
     </celebration>
     <celebration symbol="januarius">
