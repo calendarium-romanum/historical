@@ -1,4 +1,5 @@
 require 'bundler/setup'
+require 'super_diff/rspec'
 
 require 'calendarium-romanum/cr'
 require 'calendarium-romanum/historical'
