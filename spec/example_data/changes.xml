@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<calendar>
+  <body>
+    <celebration symbol="none">
+      <date month="1" day="11"/>
+      <title>S. Noni, abbatis, fundatoris Ordinis Programatorum (OProg)</title>
+      <rank>3.12</rank>
+      <change promulgated="1986-05-01">
+	<title>S. Noni, abbatis</title>
+	<rank>3.1</rank>
+      </change>
+      <change promulgated="1987-02-02">
+	<date month="1" day="13"/>
+      </change>
+      <change promulgated="1990-07-15">
+	<date month="1" day="11"/>
+	<colour>red</colour>
+      </change>
+      <change promulgated="1990-09-10">
+	<colour>white</colour>
+      </change>
+      <removal promulgated="2000-01-01"/>
+      <!-- eventual reintroduction of a celebration once removed is to be encoded
+      as a separate 'celebration' element -->
+    </celebration>
+  </body>
+</calendar>

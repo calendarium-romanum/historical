@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<calendar>
+  <documents>
+    <document id="decr1">
+      <title>Decretum de translatione perpetua memoriae S. Noni abbatis</title>
+      <promulgated>1987-02-02</promulgated>
+    </document>
+  </documents>
+  <body>
+    <celebration symbol="none">
+      <date month="1" day="11"/>
+      <title>S. Noni, abbatis, fundatoris Ordinis Programatorum (OProg)</title>
+      <rank>3.12</rank>
+      <change ref="decr1">
+	<date month="1" day="13"/>
+      </change>
+    </celebration>
+  </body>
+</calendar>
