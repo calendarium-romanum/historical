@@ -1087,7 +1087,7 @@
     <celebration symbol="lateran_basilica">
       <date month="11" day="9"/>
       <title>In dedicatione basilicae Lateranensis</title>
-      <rank>2.7</rank>
+      <rank>2.5</rank><!-- TODO: find solid official documentation if it's really a feast of the Lord -->
     </celebration>
     <celebration symbol="leo_great">
       <date month="11" day="10"/>
