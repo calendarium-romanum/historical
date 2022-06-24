@@ -33,8 +33,10 @@ Or install it yourself as:
 
 ## Development roadmap
 
-* [ ] history-aware sanctorale data loader
+* [x] history-aware sanctorale data loader
 * [ ] data file with complete history of the General Roman Calendar from 1969 to this day
+  * [x] sanctorale
+  * [ ] temporale
 * [ ] formal specification of the XML data format (allowing validation, use in XML editors etc.)
 * [ ] database-backed sanctorale data querying
 * [ ] history-aware temporale
@@ -71,6 +73,15 @@ XML data file can be exported as a conventional `calendarium-romanum` sanctorale
 $ calendariumromhist export data/general-roman-la.xml
 $ calendariumromhist export --date=2000-01-01 data/general-roman-la.xml
 ```
+
+## XSL templates
+
+As an alternative to the Ruby code described above,
+directory `xslt` contains XSL templates capable of exporting initial and final
+state of a historical XML data file in the format of a conventional sanctorale data file,
+using just your favourite XSLT processor. E.g.
+
+`$ saxon-xslt data/general-roman-la.xml xslt/final.xsl`
 
 ## Development
 
