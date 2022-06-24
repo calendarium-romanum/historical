@@ -14,6 +14,7 @@ RSpec.describe 'data' do
     strip_metadata(historical)
     strip_metadata(cr_bundled)
 
+    # TODO: now literal comparison (including celebration titles) fails on a single apostrophe
     expect(historical)
       .to eq cr_bundled
   end
@@ -21,5 +22,28 @@ RSpec.describe 'data' do
   it 'loads the current version and it is complete' do
     expect(loader.load_from_file(file, at: Date.today))
       .to eq CR::Data::GENERAL_ROMAN_LATIN.load
+  end
+
+  # potentially dangerous edge case: given document removes one celebration and introduces
+  # another one on the same date
+  describe '2021 change of the memorial of St. Martha' do
+    let(:change_date) { Date.new 2021, 1, 26 }
+    let(:memorial_date) { CR::AbstractDate.new 7, 29 }
+
+    it 'has St. Martha on the day before' do
+      sanctorale = loader.load_from_file(file, at: change_date - 1)
+
+      celebrations = sanctorale[memorial_date]
+      expect(celebrations.size).to eq 1
+      expect(celebrations[0].symbol).to be :martha
+    end
+
+    it 'has St. Martha, Mary and Lazarus from the day of change on' do
+      sanctorale = loader.load_from_file(file, at: change_date)
+
+      celebrations = sanctorale[memorial_date]
+      expect(celebrations.size).to eq 1
+      expect(celebrations[0].symbol).to be :martha_mary_lazarus
+    end
   end
 end

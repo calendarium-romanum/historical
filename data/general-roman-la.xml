@@ -38,6 +38,11 @@
       <protNum>CCDDS 40/21</protNum>
       <published uri="http://www.cultodivino.va/content/cultodivino/it/documenti/decreti-generali/decreti-generali/2021/de-indcriptione-ecclesiae-doctorum-in-calendario-romano/decretrum/latino.html"/>
     </document>
+    <document id="martha2021">
+      <promulgated>2021-01-26</promulgated>
+      <protNum>35/21</protNum>
+      <published uri="http://www.cultodivino.va/content/cultodivino/it/documenti/decreti-generali/decreti-generali/2021/de-celebratione-ss--marthae-mariae-lazari/decretum/latino.html"/>
+    </document>
   </documents>
   <body>
     <base ref="calendariumromanum1969" />
@@ -654,9 +659,12 @@
       <date month="7" day="29"/>
       <title>S. Marthae</title>
       <rank>3.1</rank>
-      <change promulgated="2021-01-26" protNum="35/21" published="http://www.cultodivino.va/content/cultodivino/it/documenti/decreti-generali/decreti-generali/2021/de-celebratione-ss--marthae-mariae-lazari/decretum/latino.html">
-	<title>Ss. Marthae, Mariae et Lazari</title>
-      </change>
+      <removal ref="martha2021"/>
+    </celebration>
+    <celebration symbol="martha_mary_lazarus" ref="martha2021">
+      <date month="7" day="29"/>
+      <title>S. Marthae, Mariae et Lazari</title>
+      <rank>3.1</rank>
     </celebration>
     <celebration symbol="peter_chrysologus">
       <date month="7" day="30"/>
