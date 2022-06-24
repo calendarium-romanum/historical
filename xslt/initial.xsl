@@ -12,7 +12,7 @@
 
   <xsl:template match="/calendar">
     <xsl:apply-templates select="meta"/>
-    <xsl:apply-templates select="body/celebration[not(./@introduced)]"/>
+    <xsl:apply-templates select="body/celebration[not(./@introduced or ./@ref)]"/>
   </xsl:template>
 
   <xsl:template match="meta">

@@ -20,25 +20,43 @@ RSpec.describe CR::Historical::SanctoraleLoader do
       .to eq [CR::Celebration.new('Ss. Basilii Magni et Gregorii Nazianzeni, episcoporum et Ecclesiae doctorum', CR::Ranks::MEMORIAL_GENERAL, CR::Colours::WHITE, :basil_gregory, CR::AbstractDate.new(1, 2))]
   end
 
-  describe 'handling celebration/@introduced' do
-    let(:introduced) { Date.new(1996, 7, 20) }
+  shared_examples 'celebration introduction date' do
     it 'does not load celebration introduced after the specified date' do
-      s = loader.load_from_file path('introduced_1996.xml'), at: introduced - 1
+      s = loader.load_from_file data_path, at: introduced - 1
       expect(s).to be_a CR::Sanctorale
       expect(s).to be_empty
     end
 
     it 'does load celebration introduced on the specified date' do
-      s = loader.load_from_file path('introduced_1996.xml'), at: introduced
+      s = loader.load_from_file data_path, at: introduced
       expect(s).to be_a CR::Sanctorale
-      expect(s.get(4, 28)[0].symbol).to be :de_montfort
+      expect(s[date][0].symbol).to be symbol
     end
 
     it 'does load celebration introduced before the specified date' do
-      s = loader.load_from_file path('introduced_1996.xml'), at: introduced + 1
+      s = loader.load_from_file data_path, at: introduced + 1
       expect(s).to be_a CR::Sanctorale
-      expect(s.get(4, 28)[0].symbol).to be :de_montfort
+      expect(s[date][0].symbol).to be symbol
     end
+  end
+
+  describe 'handling celebration/@introduced' do
+    let(:data_path) { path('introduced_1996.xml') }
+    let(:introduced) { Date.new(1996, 7, 20) }
+    let(:date) { CR::AbstractDate.new(4, 28) }
+    let(:symbol) { :de_montfort }
+
+    include_examples 'celebration introduction date'
+  end
+
+  describe 'handling celebration/@ref' do
+    # introduction date not in the celebration element, but in a referenced document
+    let(:data_path) { path('introduced_ref_document.xml') }
+    let(:introduced) { Date.new(2021, 1, 26) }
+    let(:date) { CR::AbstractDate.new(7, 29) }
+    let(:symbol) { :martha_mary_lazarus }
+
+    include_examples 'celebration introduction date'
   end
 
   shared_examples 'changes in changes.xml' do

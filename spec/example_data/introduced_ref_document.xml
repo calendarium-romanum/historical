@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<calendar>
+  <documents>
+    <document id="martha2021">
+      <promulgated>2021-01-26</promulgated>
+      <protNum>35/21</protNum>
+      <published uri="http://www.cultodivino.va/content/cultodivino/it/documenti/decreti-generali/decreti-generali/2021/de-celebratione-ss--marthae-mariae-lazari/decretum/latino.html"/>
+    </document>
+  </documents>
+  <body>
+    <celebration symbol="martha_mary_lazarus" ref="martha2021">
+      <date month="7" day="29"/>
+      <title>S. Marthae, Mariae et Lazari</title>
+      <rank>3.1</rank>
+    </celebration>
+  </body>
+</calendar>

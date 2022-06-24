@@ -12,10 +12,16 @@ module CalendariumRomanum
 
         doc = Nokogiri::XML(src)
         doc.xpath('/calendar/body/celebration').each do |cel|
-          next if cel['introduced'] && Date.parse(cel['introduced']) > point
+          introduction_date =
+            if cel['introduced']
+              Date.parse(cel['introduced'])
+            elsif cel['ref']
+              document_promulgation_date(cel['ref'], doc)
+            end
+          next if introduction_date && introduction_date > point
 
           removed = cel.xpath('./removal')
-          next if (!removed.empty?) && Date.parse(removed.first['promulgated']) <= point
+          next if (!removed.empty?) && promulgation_date(removed.first, doc) <= point
 
           date = cel.xpath('./date').first
 
@@ -59,13 +65,16 @@ module CalendariumRomanum
         if change['promulgated']
           Date.parse(change['promulgated'])
         elsif change['ref']
-          ref = change['ref']
-          document = doc.xpath("/calendar/documents/document[@id = '#{ref}']")
-
-          Date.parse(document.xpath('./promulgated').text)
+          document_promulgation_date(change['ref'], doc)
         else
-          raise 'each `change` element must have either @promulgated or @ref attribute'
+          raise "each `#{change.name}` element must have either @promulgated or @ref attribute"
         end
+      end
+
+      def document_promulgation_date(ref, doc)
+        document = doc.xpath("/calendar/documents/document[@id = '#{ref}']")
+
+        Date.parse(document.xpath('./promulgated').text)
       end
     end
   end
