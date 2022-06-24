@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.summary       = 'historically accurate Roman Catholic liturgical calendar computations'
   spec.description   = <<~EOS
   Builds upon the calendarium-romanum gem (i.e. deals only with the post-Vatican II liturgical
-  calendar) and provides additional capabilities for dealing not only a single state of the calendar,
+  calendar) and provides additional capabilities for dealing with not only a single state of the calendar,
   but also it's development in time.
   EOS
   spec.homepage      = 'https://github.com/calendarium-romanum/historical'
@@ -29,7 +29,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency 'calendarium-romanum', '~> 0.7.1'
+  spec.add_dependency 'calendarium-romanum', '~> 0.9.0'
   spec.add_dependency 'nokogiri'
   spec.add_dependency 'thor'
 end
