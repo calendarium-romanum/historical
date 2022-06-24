@@ -542,6 +542,10 @@
       <title>S. Irenaei, episcopi et martyris</title>
       <rank>3.1</rank>
       <colour>red</colour>
+      <change promulgated="2022-01-21" published="">
+	<!-- TODO: official title uncertain https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2022/01/21/0048/00099.html -->
+	<title>S. Irenaei, episcopi martyris et Ecclesiae doctoris</title>
+      </change>
     </celebration>
     <celebration symbol="peter_paul">
       <date month="6" day="29"/>
