@@ -64,6 +64,14 @@ date = Date.new 1990, 3, 27 # any date you wish
 sanctorale = loader.load_from_file 'data/general-roman-la.xml', at: date
 ```
 
+Using the gem's CLI any historical state of the calendar described in a historical
+XML data file can be exported as a conventional `calendarium-romanum` sanctorale data file:
+
+```
+$ calendariumromhist export data/general-roman-la.xml
+$ calendariumromhist export --date=2000-01-01 data/general-roman-la.xml
+```
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
