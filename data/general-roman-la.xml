@@ -762,7 +762,7 @@
     <celebration symbol="kolbe" introduced="1983-03-25" protNum="CD 570/83" published="Notitiae 202/1983, p. 238">
       <date month="8" day="14"/>
       <title>S. Maximiliani Mariae Kolbe, presbyteri et martyris</title>
-      <rank>3.12</rank>
+      <rank>3.1</rank>
       <colour>red</colour>
     </celebration>
     <celebration symbol="assumption">
@@ -867,7 +867,7 @@
     <celebration symbol="cross">
       <date month="9" day="14"/>
       <title>In Exaltatione sanctae Crucis</title>
-      <rank>2.7</rank>
+      <rank>2.5</rank>
       <colour>red</colour>
     </celebration>
     <celebration symbol="bvm_sorrows">
