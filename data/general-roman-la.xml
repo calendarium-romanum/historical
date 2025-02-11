@@ -844,6 +844,14 @@
       <title>S. Gregorii Magni, papae et Ecclesiae doctoris</title>
       <rank>3.1</rank>
     </celebration>
+    <!-- Teresa of Calcutta: decree dated 2024-12-24,
+         but released only 2025-02-11. Maybe we should support
+         encoding the two dates separately. -->
+    <celebration symbol="teresa_calcutta" introduced="2025-02-11" protNum="703/24" published="https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2025/02/11/0125/00250.html">
+      <date month="9" day="5"/>
+      <title>S. Teresiæ de Calcutta, virginis</title>
+      <rank>3.12</rank>
+    </celebration>
     <celebration symbol="bvm_birth">
       <date month="9" day="8"/>
       <title>In Nativitate B. Mariae Virginis</title>
