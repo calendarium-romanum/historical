@@ -1000,6 +1000,11 @@
       <title>S. Ioannis Leonardi, presbyteri</title>
       <rank>3.12</rank>
     </celebration>
+    <celebration symbol="newman" introduced="2025-11-09" protNum="DCDDS Prot. N. 760/25" published="https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2026/02/03/0095/00182.html">
+      <date month="10" day="9"/>
+      <title>S. Ioannis Henrici Newman, presbyteri et ecclesiae doctoris</title>
+      <rank>3.12</rank>
+    </celebration>
     <celebration symbol="john_xxiii" ref="popes2014">
       <date month="10" day="11"/>
       <title>S. Ioannis XXIII, papae</title>
