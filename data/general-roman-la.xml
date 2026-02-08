@@ -543,8 +543,8 @@
       <rank>3.1</rank>
       <colour>red</colour>
       <change promulgated="2022-01-21" published="">
-	<!-- TODO: official title uncertain https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2022/01/21/0048/00099.html -->
-	<title>S. Irenaei, episcopi martyris et Ecclesiae doctoris</title>
+        <!-- TODO: official title uncertain https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2022/01/21/0048/00099.html -->
+        <title>S. Irenaei, episcopi martyris et Ecclesiae doctoris</title>
       </change>
     </celebration>
     <celebration symbol="peter_paul">
@@ -633,7 +633,7 @@
       <title>S. Mariae Magdalenae</title>
       <rank>3.1</rank>
       <change promulgated="2016-06-03" protNum="CCDDS 257/16" published="Notitiae 2016, p. 22">
-	<rank>2.7</rank>
+        <rank>2.7</rank>
       </change>
     </celebration>
     <celebration symbol="birgitta">
@@ -645,7 +645,7 @@
       <date month="7" day="24"/>
       <title>S. Sarbelii Makhlūf, presbyteri</title>
       <!-- In the decree the name is rendered as "Makhūf", but by comparison with immediately
-	   following liturgical texts it's an obvious typo. -->
+           following liturgical texts it's an obvious typo. -->
       <rank>3.12</rank>
     </celebration>
     <celebration symbol="james">
@@ -1241,7 +1241,7 @@
       <title>S. Ioannae Franciscae de Chantal, religiosae</title>
       <rank>3.12</rank>
       <change ref="additiones2001">
-	<date month="8" day="12"/>
+        <date month="8" day="12"/>
       </change>
     </celebration>
     <celebration symbol="bvm_guadalupe" introduced="2002-09-28" protNum="1622/02/L" published="Notitiae 451-452/2004, p. 197">
